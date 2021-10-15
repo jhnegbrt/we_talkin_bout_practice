@@ -1,8 +1,21 @@
-function add(n1, n2){
-  return n1 + n2
+const person = {
+  name: "max",
+  age: 30
 }
 
-const number1 = '5'
-const number2 = 2.8
+console.log(person.name)
 
-console.log(add(number1, number2))
+let newArray: string[];
+newArray.push("string")
+
+let secondArray: (string|number)[]
+secondArray.push(6)
+
+let thirdArray = [6, "string"]
+thirdArray.push(null)
+
+let tuple: [number, string, number]
+
+tuple = [7, "string", 8]
+
+enum Role {ADMIN, READ_ONLY, AUTHOR};
