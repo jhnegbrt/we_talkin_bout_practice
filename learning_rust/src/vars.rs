@@ -1,4 +1,8 @@
 pub fn run(){
   let name = "Brad";
-  println!("My name is {}", name)
+  let mut age = 37;
+
+  age = 38;
+  
+  println!("My name is {} and I am {}", name, age)
 }
